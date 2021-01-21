@@ -1,0 +1,39 @@
+.center {
+    display: block;
+    text-align:center ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 155px;}
+
+ #searchbarcontainer {
+     text-align: center;
+     margin-top: 30px;
+     border-color: whitesmoke;
+     }
+
+ #searchbar{ 
+     padding: 12px 0px 12px 0px;
+     width: 480px;
+     outline: 0;
+     border-radius: 20px;
+     border: 1.9px solid #d8d8d8;
+     }
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    
+}
+.button {
+    margin: 0px 7px 0px 7px;
+    padding: 10px 16px;
+    cursor: pointer;
+    background: #f8f9fa;
+    border-radius: 3px;
+    
+    
+}
