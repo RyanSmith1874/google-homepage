@@ -3,7 +3,7 @@
     text-align:center ;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 155px;}
+    margin-top: 180px;}
 
  #searchbarcontainer {
      text-align: center;
@@ -13,7 +13,7 @@
 
  #searchbar{ 
      padding: 12px 0px 12px 0px;
-     width: 480px;
+     width: 475px;
      outline: 0;
      border-radius: 20px;
      border: 1.9px solid #d8d8d8;
@@ -22,10 +22,11 @@
 #buttons{
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: rgb(71, 71, 71);
+    font-weight: initial;
     
 }
 .button {
@@ -34,6 +35,26 @@
     cursor: pointer;
     background: #f8f9fa;
     border-radius: 3px;
+    }
+  
+    .tagline {
+        text-align: center;
+    }
+ 
+ a {
+     color: #1a0dab;
+     text-decoration: none;
+     font-size: small;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: initial;
     
+     }
+ 
+     a:hover {
+     text-decoration: underline;
     
-}
+ }  
+ h2 {
+     text-align: center;
+ }  
+ }   
