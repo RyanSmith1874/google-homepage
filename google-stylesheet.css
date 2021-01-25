@@ -3,21 +3,32 @@
     text-align:center ;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 180px;}
+    margin-top: 127px;}
 
  #searchbarcontainer {
      text-align: center;
      margin-top: 30px;
      border-color: whitesmoke;
+     
      }
+ 
+    
 
  #searchbar{ 
-     padding: 12px 0px 12px 0px;
-     width: 475px;
+     padding: 15px 0px 12px 0px;
+     width: 570px;
      outline: 0;
      border-radius: 20px;
-     border: 1.9px solid #d8d8d8;
+     border: 1.9px solid #e4e3e3;
+     
      }
+#searchbar:hover{
+    box-shadow: 1px 1px 5px rgb(202, 202, 202);
+    }
+    #searchbar:focus{
+        box-shadow: 1px 1px 5px rgb(202, 202, 202);
+        }   
+
 
 #buttons{
     display: flex;
@@ -37,23 +48,110 @@
     border-radius: 3px;
     }
   
-    .tagline {
+    #tagline {
         text-align: center;
-    }
- 
- a {
-     color: #1a0dab;
+        color: #1a0dab;
      text-decoration: none;
      font-size: small;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: initial;
-    
+    }
+ 
+ a {
+     text-decoration: none;
+    color: rgb(82, 80, 80);
      }
  
-     a:hover {
+     #tagline:hover {
      text-decoration: underline;
+}
+#navbar {
+    font-weight: initial;
+    display: grid;
+    grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+    grid-template-rows: 50px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+    "about store . gmail images apps signin";
     
- }  
+
+}
+
+
+    
+
+
+#about {
+    grid-area: about;
+    justify-self: center;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 19px;
+
+
+    
+    
+    }
+#about:hover {text-decoration: underline;}
+
+#store {
+    grid-area: store;
+    justify-self: center;
+    margin-top: 2px;
+    margin-left: 14px;
+
+    
+}
+#store:hover {text-decoration: underline;}
+
+#gmail {
+    grid-area: gmail;
+    justify-self: center;
+    margin-right: 100px;
+    margin-top: 2px;
+
+}
+#gmail:hover {text-decoration: underline;}
+
+#images {
+    grid-area: images;
+    justify-self: center;
+    margin-right: 95px;
+    margin-top: 2px;
+
+}
+#images:hover {text-decoration: underline;}
+
+#apps {
+    grid-area: apps;
+    margin-right: 90px;
+    margin-top: 2px;
+    justify-self: center;
+    
+    
+
+}
+
+#signin {
+    grid-area: signin;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    padding: 7px 11px;
+    white-space: nowrap;
+    background: #4285f4;
+    background-size: 100px;
+    color: white;
+    border-radius: 2px;
+    cursor: default;
+    justify-self:center;
+    margin-right: 60px;
+    align-self: center;
+    margin-top: -30px;
+    
+    
+    
+}  
  h2 {
      text-align: center;
  }  
